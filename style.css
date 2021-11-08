@@ -1,0 +1,77 @@
+body{
+  background: url("background.jpg");
+  background-size: 100%;
+}
+
+.container{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  padding: 5%;
+}
+
+/* header */
+
+img{
+  width: 30%;
+  display: block;
+  margin: auto;
+  color: lime;
+}
+
+h1{
+  color: lime;
+  font-size: 200%;
+  text-align: center;
+}
+
+/* nav */
+
+.search{
+  background-position: center;
+  width: 100%;
+  padding: 2% 2%;
+  background-color: lime;
+}
+
+.selection:first-of-type{
+  margin-left: 28%;
+}
+
+/* main */
+.list{
+  color: white;
+}
+
+h2{
+  display: inline-block;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.address::before{
+  content: "\21A6"
+}
+
+.charge-Gino22{
+  background-color:  #ffaa00;
+  width: 35%;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.charge-Mike24{
+  background-color: #00cc44;
+  width: 60%;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.charge-Fede154{
+  background-color: #ff5c33;
+  width: 18%;
+  height: 25px;
+  border-radius: 5px;
+}
